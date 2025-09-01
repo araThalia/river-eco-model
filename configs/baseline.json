@@ -1,0 +1,32 @@
+{
+  "ensemblesize": 20,
+  "river_length": 100,
+  "timesteps": 200,
+  "prop_suitable": 0.5,
+  "prop_rejuvenate": 0.2,
+  "prop_populated": 0.3,
+  "max_habitat_age": 70,
+  "p_turnover": 0.05,
+  "p_dispersal": 0.6,
+  "p_ldd": 0.8,
+  "ldd_kernel": [
+    0.5,
+    0.35,
+    0.2,
+    0.1,
+    0.05
+  ],
+  "turnoverweights": [
+    [
+      20,
+      0.9
+    ],
+    [
+      50,
+      0.5
+    ]
+  ],
+  "flood": {},
+  "modelname": "baseline_",
+  "save": true
+}
